@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>GridWorld Workspace</label>
+	</settings>
+	<users>
+		<user>
+			<path>GridWorld Workspace.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>BoxBug\BoxBug.jcp</path>
+		</project>
+		<project>
+			<path>BugRunner\BugRunner.jcp</path>
+		</project>
+		<project>
+			<path>Critters\Critters.jcp</path>
+		</project>
+	</projects>
+</workspace>

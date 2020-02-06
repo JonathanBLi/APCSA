@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>BugRunner</label>
+	</settings>
+	<users>
+		<user>
+			<path>BugRunner.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>BugRunner.jcp</path>
+		</project>
+	</projects>
+</workspace>
