@@ -17,13 +17,20 @@ import java.util.*;
 // Remember to write javadocs for the class description and the 2 methods you are writing.
 
 /**
+ * A PostOffice object represents a collection of PO Boxes.
  */ 
 public class PostOffice
 {
   /* 2D Array of POBox objects. */
   private POBox[][] boxes;
   
-  /** 
+  /** The constructor initializes the boxes instance variable (which is a 2D 
+   * array of POBox objects) using a List of POBox objects and a specified 
+   * number of rows and columns.
+   * 
+   * @param ownerList list of PO boxes
+   * @param rows the number of rows the PostOffice will have
+   * @param cols the number of columns the PostOffice will have
    */
   public PostOffice(List<POBox> ownerList, int rows, int cols)
   {
@@ -41,7 +48,12 @@ public class PostOffice
     }
   }
   
-  /** 
+  /** Removes owners who have more than a given number of late payments from the
+   * box owner chart and returns an ArrayList of String representing the names of
+   * the PO Box owners that were removed in the order they were removed.
+   * 
+   * @param allowedLatePmts the maximum allowed number of late payments
+   * @return the names of the PO Box owners that were removed in the order they were removed
   */
   public List<String> removeOwnersLatePmts(int allowedLatePmts)
   {
